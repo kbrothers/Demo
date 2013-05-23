@@ -1,0 +1,191 @@
+a:hover, a:focus {
+	color: #e590e5;
+}
+.sideimg-list li a {
+	color: #e590e5;
+}
+.left-border-box {
+	border-left: 3px solid #e590e5;
+}
+#site_logo {
+	background: url(../../images/colors/pink/logo.png) no-repeat left top;
+}
+#site_logo i {
+	color: #e590e5;
+}
+
+#sitetop_div_fullw {
+	background: url(../../images/colors/pink/pink-bg.jpg) repeat left top;
+}
+#sitetop_div {
+	background: url(../../images/colors/pink/pink-bg.jpg) repeat left top;
+}
+.down_arrow1 {
+	background: url(../../images/colors/pink/down-arrow1.png) no-repeat center top;
+}
+.twitter_widgett_fullw {
+	background: url(../../images/colors/pink/twitter_newsletter_bg.png) no-repeat center top;
+}
+h1.with_line,
+h2.with_line,
+h3.with_line { background: url(../../images/colors/pink/down-arrow3.png) no-repeat left bottom; }
+	
+#access .menu ul li a:hover, 
+#access .menu ul li.active a, 
+#access .menu ul li a.selected {
+	color: #e590e5;
+	border-bottom: 3px solid #e590e5;
+}
+#access .menu ul li ul li a {
+	border-bottom: 1px solid #e590e5;
+}
+#access .menu ul li ul li a:hover,
+#access .menu ul li ul li.active a,
+#access .menu ul li ul li a.selected {
+	background-color: #e590e5;
+	border-bottom: 1px solid #e590e5;
+}
+.hot_offers h1 {
+	color: #e590e5;
+}
+.hosting_plans_area .plan_box {
+	border-top: 3px solid #e590e5;
+}
+#content .content-left .our-products li h6 {
+	color: #e590e5;
+}
+#content .our-support h5 {
+	color: #e590e5;
+}
+#content .content-fullwidth .our-products li h4 {
+	color: #e590e5;
+}
+.sidebars-navigation-list li a:hover {
+	color: #e590e5;
+}
+#site-searchform #searchsubmit{
+	background: #e590e5 url(../../images/site-search-icon.png) no-repeat center 9px;
+}
+.popular-posts-list li a:hover {
+	color: #e590e5;
+}
+.blog_post h3 a:hover {
+	color: #e590e5;
+}
+.hosting_page_plan .price {
+	color: #e590e5;
+}
+.hosting_page_plan .price i {
+	color: #e590e5;
+}
+.hosting_page_plan .ordernow h4 {
+	color: #e590e5;
+}
+.pricing-tables-helight .price {
+	background-color: #e590e5;
+}
+.pricing-tables-helight-two .price {
+	background-color: #e590e5;
+}
+.pricing-tables-helight .title {
+	background-color: #9e3ef7;
+	border-top: 3px solid #8e2bea;
+	border-bottom: 1px solid #bb73fe;
+}
+.pricing-tables-helight-two .title {
+	background-color: #9e3ef7;
+	border-top: 3px solid #8e2bea;
+	border-bottom: 1px solid #bb73fe;
+}
+
+.button.lightblue {
+	background-color: #e590e5;
+	color: #fff;
+}
+.highlight2.blue {
+	color: #e590e5;
+}
+.button.small.colorchan{
+	background-color: #e590e5;
+}
+
+.hosting_plans_area .plan_box_price {
+	background: #fff url(../../images/colors/pink/plans-prices-bg.png) no-repeat left top;
+}
+.newwebsite_left {
+	background: url(../../images/colors/pink/pink-bg.jpg) repeat left top;
+}
+
+.newwebsite_left a.button_sw {
+	background: #f0a1f0 url(../../images/colors/pink/arrow-2.png) no-repeat right 12px;
+	box-shadow: 0px 0px 3px #c855c8;
+}
+.newwebsite_left a.button_sw:hover {
+	background: #f0a1f0 url(../../images/colors/pink/arrow-2.png) no-repeat right 12px;
+	box-shadow: 0px 0px 3px #c855c8;
+}
+
+.clients_title h3 {
+	background: url(../../images/colors/pink/clients-bg.png) no-repeat left top;
+}
+
+.signupfor_newsletter {
+	background: url(../../images/colors/pink/newsletter-bg.png) no-repeat left top;
+}
+
+.signupfor_newsletter input.enter_email_input {
+	background-color: #dd7fdd;
+	border: 1px solid #d26ed2;
+}
+.signupfor_newsletter .input_submit {
+	background-color: #d26ed2;
+	border: 1px solid #c359c3;
+}
+.signupfor_newsletter .input_submit:hover {
+	color: #f8bdf8;
+	cursor: pointer;
+}
+
+.top_links li a:hover {
+	color: #f8bdf8;
+}
+
+.hosting_plans_area a.plans_button:hover {
+	color: #f8bdf8;
+
+}
+
+
+.blog_post a.date {
+	background: url(../../images/colors/pink/date-bg.png) no-repeat left top;
+}
+
+#content .content-right-sidebar h3 {
+	background: url(../../images/colors/pink/down-arrow5.png) no-repeat left bottom;
+}
+#content .content-left-sidebar h3 {
+	background: url(../../images/colors/pink/down-arrow5.png) no-repeat left bottom;
+}
+
+.tp-caption.main_text i {
+	color: #e590e5;
+}
+.tp-caption.button1{
+	background: url(../../images/colors/pink/button-right-arrow1.png) no-repeat right top;
+}
+	
+.tp-caption a.button1-s{
+	background: #e590e5 url(../../images/slider/arrow-1.png) no-repeat right 18px;
+	border-left: 5px solid #d875d8;
+}
+
+html ul.tabs li.active, html ul.tabs li.active a,  html ul.tabs li.active a:hover  { 
+	border-top: 2px solid #e590e5;
+}
+
+html ul.tabs-two li.active, html ul.tabs-two li.active a,  html ul.tabs-two li.active a:hover  { 
+	border-left: 2px solid #e590e5;
+}
+
+
+

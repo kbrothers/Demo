@@ -1,0 +1,191 @@
+a:hover, a:focus {
+	color: #dfc49f;
+}
+.sideimg-list li a {
+	color: #dfc49f;
+}
+.left-border-box {
+	border-left: 3px solid #dfc49f;
+}
+#site_logo {
+	background: url(../../images/colors/tan/logo.png) no-repeat left top;
+}
+#site_logo i {
+	color: #dfc49f;
+}
+
+#sitetop_div_fullw {
+	background: url(../../images/colors/tan/tan-bg.jpg) repeat left top;
+}
+#sitetop_div {
+	background: url(../../images/colors/tan/tan-bg.jpg) repeat left top;
+}
+.down_arrow1 {
+	background: url(../../images/colors/tan/down-arrow1.png) no-repeat center top;
+}
+.twitter_widgett_fullw {
+	background: url(../../images/colors/tan/twitter_newsletter_bg.png) no-repeat center top;
+}
+h1.with_line,
+h2.with_line,
+h3.with_line { background: url(../../images/colors/tan/down-arrow3.png) no-repeat left bottom; }
+	
+#access .menu ul li a:hover, 
+#access .menu ul li.active a, 
+#access .menu ul li a.selected {
+	color: #dfc49f;
+	border-bottom: 3px solid #dfc49f;
+}
+#access .menu ul li ul li a {
+	border-bottom: 1px solid #dfc49f;
+}
+#access .menu ul li ul li a:hover,
+#access .menu ul li ul li.active a,
+#access .menu ul li ul li a.selected {
+	background-color: #dfc49f;
+	border-bottom: 1px solid #dfc49f;
+}
+.hot_offers h1 {
+	color: #dfc49f;
+}
+.hosting_plans_area .plan_box {
+	border-top: 3px solid #dfc49f;
+}
+#content .content-left .our-products li h6 {
+	color: #dfc49f;
+}
+#content .our-support h5 {
+	color: #dfc49f;
+}
+#content .content-fullwidth .our-products li h4 {
+	color: #dfc49f;
+}
+.sidebars-navigation-list li a:hover {
+	color: #dfc49f;
+}
+#site-searchform #searchsubmit{
+	background: #dfc49f url(../../images/site-search-icon.png) no-repeat center 9px;
+}
+.popular-posts-list li a:hover {
+	color: #dfc49f;
+}
+.blog_post h3 a:hover {
+	color: #dfc49f;
+}
+.hosting_page_plan .price {
+	color: #dfc49f;
+}
+.hosting_page_plan .price i {
+	color: #dfc49f;
+}
+.hosting_page_plan .ordernow h4 {
+	color: #dfc49f;
+}
+.pricing-tables-helight .price {
+	background-color: #dfc49f;
+}
+.pricing-tables-helight-two .price {
+	background-color: #dfc49f;
+}
+.pricing-tables-helight .title {
+	background-color: #ccac80;
+	border-top: 3px solid #c3a172;
+	border-bottom: 1px solid #e7d0b2;
+}
+.pricing-tables-helight-two .title {
+	background-color: #ccac80;
+	border-top: 3px solid #c3a172;
+	border-bottom: 1px solid #e7d0b2;
+}
+
+.button.lightblue {
+	background-color: #dfc49f;
+	color: #fff;
+}
+.highlight2.blue {
+	color: #dfc49f;
+}
+.button.small.colorchan{
+	background-color: #dfc49f;
+}
+
+.hosting_plans_area .plan_box_price {
+	background: #fff url(../../images/colors/tan/plans-prices-bg.png) no-repeat left top;
+}
+.newwebsite_left {
+	background: url(../../images/colors/tan/tan-bg.jpg) repeat left top;
+}
+
+.newwebsite_left a.button_sw {
+	background: #e7d0b0 url(../../images/colors/tan/arrow-2.png) no-repeat right 12px;
+	box-shadow: 0px 0px 3px #cfae81;
+}
+.newwebsite_left a.button_sw:hover {
+	background: #e7d0b0 url(../../images/colors/tan/arrow-2.png) no-repeat right 12px;
+	box-shadow: 0px 0px 3px #cfae81;
+}
+
+.clients_title h3 {
+	background: url(../../images/colors/tan/clients-bg.png) no-repeat left top;
+}
+
+.signupfor_newsletter {
+	background: url(../../images/colors/tan/newsletter-bg.png) no-repeat left top;
+}
+
+.signupfor_newsletter input.enter_email_input {
+	background-color: #d6b88f;
+	border: 1px solid #ccac80;
+}
+.signupfor_newsletter .input_submit {
+	background-color: #ccac80;
+	border: 1px solid #c3a172;
+}
+.signupfor_newsletter .input_submit:hover {
+	color: #efdbc0;
+	cursor: pointer;
+}
+
+.top_links li a:hover {
+	color: #efdbc0;
+}
+
+.hosting_plans_area a.plans_button:hover {
+	color: #efdbc0;
+
+}
+
+
+.blog_post a.date {
+	background: url(../../images/colors/tan/date-bg.png) no-repeat left top;
+}
+
+#content .content-right-sidebar h3 {
+	background: url(../../images/colors/tan/down-arrow5.png) no-repeat left bottom;
+}
+#content .content-left-sidebar h3 {
+	background: url(../../images/colors/tan/down-arrow5.png) no-repeat left bottom;
+}
+
+.tp-caption.main_text i {
+	color: #dfc49f;
+}
+.tp-caption.button1{
+	background: url(../../images/colors/tan/button-right-arrow1.png) no-repeat right top;
+}
+	
+.tp-caption a.button1-s{
+	background: #dfc49f url(../../images/slider/arrow-1.png) no-repeat right 18px;
+	border-left: 5px solid #d1af81;
+}
+
+html ul.tabs li.active, html ul.tabs li.active a,  html ul.tabs li.active a:hover  { 
+	border-top: 2px solid #dfc49f;
+}
+
+html ul.tabs-two li.active, html ul.tabs-two li.active a,  html ul.tabs-two li.active a:hover  { 
+	border-left: 2px solid #dfc49f;
+}
+
+
+

@@ -14,8 +14,7 @@
     
     <!-- Google font -->
     <link href='http://fonts.googleapis.com/css?family=Fjalla+One|Archivo+Narrow|Oswald:400,700' rel='stylesheet' type='text/css'>
-    
-    
+   
     <!--[if lt IE 9]>
 		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
@@ -27,15 +26,12 @@
     
 	<!-- Favicon --> 
 	<link rel="shortcut icon" href="images/favicon.html">
-    
-    
-    
-    
+  
 	<!-- ######### CSS STYLES ######### -->
 	<link rel="stylesheet" href="styles/base.css">
 	<link rel="stylesheet" href="styles/skeleton.css">
 	<link rel="stylesheet" href="styles/layout.css">
-    
+
 <!-- just remove the below comments witch color skin you want to use -->
     
     <!--<link rel="stylesheet" href="styles/colors/red.css" />-->
@@ -61,12 +57,11 @@
     <!--<link rel="stylesheet" href="styles/bg-patterns/pattern-eight.css" />-->
     <!--<link rel="stylesheet" href="styles/bg-patterns/pattern-nine.css" />-->
     
-    <!-- REVOLUTION BANNER CSS SETTINGS -->
-    <link rel="stylesheet" type="text/css" href="js/rs-plugin/css/responsive.css" media="screen" />
-	<link rel="stylesheet" type="text/css" href="js/rs-plugin/css/settings.css" media="screen" />
-    
     <!-- style switcher -->
     <link rel = "stylesheet" media = "screen" href = "js/style-switcher/color-switcher.css" />
+    
+    <!-- tabs css -->
+	<link rel="stylesheet" type="text/css" href="js/tabs/tabs.css" />
 	
     
     <!-- ######### JS FILES ######### -->
@@ -75,24 +70,16 @@
      <!-- style switcher -->
     <script src="js/style-switcher/jquery-1.js"></script>
     <script src="js/style-switcher/styleselector.js"></script>
-    
-    <!-- Shortslide -->
-    <script src = "js/shortslide/_lib/jquery-1.8.2.min.js"></script>
-	<script src = "js/shortslide/_lib/jquery.easing-1.3.js"></script>
-	<script src = "js/shortslide/_js/common.js"></script>
-    <script src = "js/shortslide/_src/jquery.iosslider.js"></script>
-    <link rel = "stylesheet" media = "screen" href = "js/shortslide/common.css" />
+
      
     <!-- Main Menu -->  
     <script type="text/javascript" src="js/mainmenu/ddsmoothmenu.js"></script>
     <script type="text/javascript" src="js/mainmenu/jquery-1.7.1.min.js"></script>
     <script type="text/javascript" src="js/mainmenu/selectnav.js"></script>
     
-    <!-- REVOLUTION BANNER JS FILES  -->
-	<script type="text/javascript" src="js/rs-plugin/js/jquery.themepunch.plugins.min.js"></script>
-    <script type="text/javascript" src="js/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
-    <script type="text/javascript" src="js/rs-plugin/js/custom.js"></script>
-    
+	<!-- tabs script -->
+	<script type="text/javascript" src="js/tabs/tabs.js"></script>
+	
 
     
 </head>
@@ -126,7 +113,7 @@
 		
         <!-- end date -->
         
-        <div class="columns flt">
+        <div class="columns ten">
         
         <div class="top_links">
         	 <ul>
@@ -152,7 +139,7 @@
      <!-- end top links -->
      
    <!-- header -->
-    <div class="columns seventeen header_bg">
+    <div class="columns seventeen header_bg2">
      
      <div class="down_arrow1"></div><!-- end down arrow1 --> 
     
@@ -165,13 +152,13 @@
         <!-- end logo -->
         
      <!-- main menu -->
-     <div class="columns ten">
+     <div class="columns flt">
 
        <nav id="access" class="access" role="navigation">
         <div id="menu" class="menu">
         	
         	<ul id="tiny">
-            	<li class="menu_icon1"><a href="index.html" class="selected">Domain</a>
+            	<li class="menu_icon1"><a href="index.html">Domain</a>
                 	<ul>
                         <li><a href="Domain-Registration.html">Domain Registration</a></li>					
 						<li><a href="#">Apply Domain Offline</a></li>
@@ -191,7 +178,7 @@
 						<li><a href="#">Mail hosting</a></li>
 			        </ul>
 				</li>
-                <li class="menu_icon3"><a href="#">Services</a>
+                <li class="menu_icon3"><a href="#" class="selected">Services</a>
                 	
                     <ul>
                     	<li><a href="#">Web Hosting & Server</a></li>
@@ -220,358 +207,171 @@
     </div>
     </div>
 	<!-- end main menu -->
-    
-	<!-- slider -->
-    <div class="columns seventeen">
-    
-    
-    <div class="bannercontainer" >
-					<div class="banner" >
-						<ul>
 
-
-							<!-- BOXFADE -->
-                            
-							<!-- SLIDE LEFT -->
-							<li data-transition="slideleft" data-slotamount="10"  data-masterspeed="300"  data-link="index.html" data-thumb="">
-								<img src="images/spacer.gif" alt="" />
-                                <div class="caption lfb" data-x="525" data-y="65" data-speed="700" data-start="100" data-easing="easeOutBack"><img src="images/slider/slider-image1.png" alt="" class="slider_img_pur"></div>
-                                <div class="caption lft main_text"  data-x="30" data-y="75" data-speed="700" data-start="800" data-easing="easeOutBack"><i>Reliable</i> Web Hosting</div>
-                                
-                                <div class="caption lft sub_text"  data-x="30" data-y="173" data-speed="700" data-start="1200" data-easing="easeOutBack">Nest Reliable Web Hosting will keep your website up and running</div>
-                                
-                                <div class="caption lfb"  data-x="30" data-y="215" data-speed="700" data-start="1600" data-easing="easeOutBack">			<ul class="list_text">
-                        <li>Unlimited storage &amp; bandwidth</li>
-                        <li>Unlimited Databases &amp; Email Addresses </li>
-                        <li>99.9% uptime guarantee</li>
-                        <li>Free 24/7 technical support</li>
-                        <li>Easy, one-click setup</li>
-                        </ul></div>
-                        
-                        <div class="caption lfb sub_text2"  data-x="320" data-y="215" data-speed="700" data-start="2000" data-easing="easeOutBack">get <i>free Domain</i> with<br />Annual Plan</div>
-                        
-                        <div class="caption lfb price"  data-x="320" data-y="265" data-speed="700" data-start="2400" data-easing="easeOutBack">from only<br /><i>$4.99</i><br />/m</div>
-                        
-                        <div class="caption lfb button1"  data-x="30" data-y="460" data-speed="700" data-start="2600" data-easing="easeOutBack"><a href="#" class="button1-s">View plans &amp; features</a></div>
-                        
-                        <div class="caption lfb button2"  data-x="300" data-y="460" data-speed="700" data-start="3000" data-easing="easeOutBack"><a href="#" class="button2-s">sign up now</a></div>
-							</li>
-
-							
-							<li data-transition="slideleft" data-slotamount="10"  data-masterspeed="300"  data-link="index.html" data-thumb="">
-								<img src="images/spacer.gif" alt="" />
-                                <div class="caption lft" data-x="525" data-y="65" data-speed="700" data-start="100" data-easing="easeOutBack"><img src="images/slider/slider-image2.png" alt="" class="slider_img_pur"></div>
-                                <div class="caption lfl main_text"  data-x="30" data-y="75" data-speed="700" data-start="800" data-easing="easeOutBack"><i>Advanced</i> Web Hosting</div>
-                                
-                                <div class="caption lfl sub_text"  data-x="30" data-y="173" data-speed="700" data-start="1200" data-easing="easeOutBack">Lorem Ipsum is simply dummy text of the printing and typesetting industry</div>
-                                
-                                <div class="caption lfr"  data-x="30" data-y="215" data-speed="700" data-start="1600" data-easing="easeOutBack">			<ul class="list_text">
-                        <li>Unlimited storage &amp; bandwidth</li>
-                        <li>Unlimited Databases &amp; Email Addresses </li>
-                        <li>99.9% uptime guarantee</li>
-                        <li>Free 24/7 technical support</li>
-                        <li>Easy, one-click setup</li>
-                        </ul></div>
-                        
-                        <div class="caption lfr sub_text2"  data-x="320" data-y="215" data-speed="700" data-start="2000" data-easing="easeOutBack">get <i>free Domain</i> with<br />Annual Plan</div>
-                        
-                        <div class="caption lfr price"  data-x="320" data-y="265" data-speed="700" data-start="2400" data-easing="easeOutBack">from only<br /><i>$36</i><br />/m</div>
-                        
-                        <div class="caption lfb button1"  data-x="30" data-y="460" data-speed="700" data-start="2600" data-easing="easeOutBack"><a href="#" class="button1-s">View plans &amp; features</a></div>
-                        
-                        <div class="caption lfb button2"  data-x="300" data-y="460" data-speed="700" data-start="3000" data-easing="easeOutBack"><a href="#" class="button2-s">sign up now</a></div>
-                        </li>
-                        
-                        
-                        <li data-transition="slideleft" data-slotamount="10"  data-masterspeed="300"  data-link="index.html" data-thumb="">
-								<img src="images/spacer.gif" alt="" />
-                                <div class="caption lfb" data-x="525" data-y="65" data-speed="700" data-start="100" data-easing="easeOutBack"><img src="images/slider/slider-image3.png" alt="" class="slider_img_pur"></div>
-                                <div class="caption lft main_text"  data-x="30" data-y="75" data-speed="700" data-start="800" data-easing="easeOutBack"><i>dedicated</i> servers</div>
-                                
-                                <div class="caption lft sub_text"  data-x="30" data-y="173" data-speed="700" data-start="1200" data-easing="easeOutBack">Lorem Ipsum is simply dummy text of the printing and typesetting industry</div>
-                                
-                                <div class="caption lfb"  data-x="30" data-y="215" data-speed="700" data-start="1600" data-easing="easeOutBack">			<ul class="list_text">
-                        <li>Unlimited storage &amp; bandwidth</li>
-                        <li>Unlimited Databases &amp; Email Addresses </li>
-                        <li>99.9% uptime guarantee</li>
-                        <li>Free 24/7 technical support</li>
-                        <li>Easy, one-click setup</li>
-                        </ul></div>
-                        
-                        <div class="caption lfb sub_text2"  data-x="320" data-y="215" data-speed="700" data-start="2000" data-easing="easeOutBack">get <i>free Domain</i> with<br />Annual Plan</div>
-                        
-                        <div class="caption lfb price"  data-x="320" data-y="265" data-speed="700" data-start="2400" data-easing="easeOutBack">from only<br /><i>$180</i><br />/m</div>
-                        
-                        <div class="caption lfb button1"  data-x="30" data-y="460" data-speed="700" data-start="2600" data-easing="easeOutBack"><a href="#" class="button1-s">View plans &amp; features</a></div>
-                        
-                        <div class="caption lfb button2"  data-x="300" data-y="460" data-speed="700" data-start="3000" data-easing="easeOutBack"><a href="#" class="button2-s">sign up now</a></div>
-							</li>
-                            
-                            
-                            <li data-transition="slideleft" data-slotamount="10"  data-masterspeed="300"  data-link="index.html" data-thumb="">
-								<img src="images/spacer.gif" alt="" />
-                                <div class="caption lft" data-x="525" data-y="65" data-speed="700" data-start="100" data-easing="easeOutBack"><img src="images/slider/slider-image4.png" alt="" class="slider_img_pur"></div>
-                                <div class="caption lfl main_text"  data-x="30" data-y="75" data-speed="700" data-start="800" data-easing="easeOutBack"><i>cloud</i> computing</div>
-                                
-                                <div class="caption lfl sub_text"  data-x="30" data-y="173" data-speed="700" data-start="1200" data-easing="easeOutBack">Lorem Ipsum is simply dummy text of the printing and typesetting industry</div>
-                                
-                                <div class="caption lfr"  data-x="30" data-y="215" data-speed="700" data-start="1600" data-easing="easeOutBack">			<ul class="list_text">
-                        <li>Unlimited storage &amp; bandwidth</li>
-                        <li>Unlimited Databases &amp; Email Addresses </li>
-                        <li>99.9% uptime guarantee</li>
-                        <li>Free 24/7 technical support</li>
-                        <li>Easy, one-click setup</li>
-                        </ul></div>
-                        
-                        <div class="caption lfr sub_text2"  data-x="320" data-y="215" data-speed="700" data-start="2000" data-easing="easeOutBack">get <i>free Domain</i> with<br />Annual Plan</div>
-                        
-                        <div class="caption lfr price"  data-x="320" data-y="265" data-speed="700" data-start="2400" data-easing="easeOutBack">from only<br /><i>$270</i><br />/m</div>
-                        
-                        <div class="caption lfb button1"  data-x="30" data-y="460" data-speed="700" data-start="2600" data-easing="easeOutBack"><a href="#" class="button1-s">View plans &amp; features</a></div>
-                        
-                        <div class="caption lfb button2"  data-x="300" data-y="460" data-speed="700" data-start="3000" data-easing="easeOutBack"><a href="#" class="button2-s">sign up now</a></div>
-                        </li>
-						</ul>
-                        
-                        
-						<!--<div class="tp-bannertimer"></div>-->
-					</div>
-				</div>
-    </div>
-    <!-- end slider -->
 </div>
 <!-- end header -->
     
 <div class="columns seventeen">
 	
-    <div class="punchline_text">
-    <div class="site_goto_center_two">
-    	We have registered over 2 million domain names and host over 1.9 million websites for individuals and organizations
-Our fast and flexible website creator is the easy way to build &amp; manage a site for your business </div>
-</div>
-    <div class="down_arrow2"></div><!-- end down arrow1 -->
+    <!-- page title -->
+	<div class="page-main-title">
+		<div class="site_goto_center">
+		<div class="leaft-title"><h1>Services</h1></div>
+        <span class="reght-pagenation"><a href="index.html">Domain</a> <i>/</i> Services</span>
+		</div><div class="waves_graphic"></div>
+	</div>
+    
 </div>
 <!-- end Punchline Text --> 
     
 <!-- Content --> 
 <div class="columns seventeen">
-
 	<div class="site_goto_center">
+	<div class="margin_top1"></div>
 	
-    <div class="margin_top3"></div>
-
-	<div class="columns thirteen first">
-    	
-      <h2>New website?</h2>
+<div id="content">
+	<div class="container">
+		
         
-      <div class="newwebsite_area">
-        
-        <div class="newwebsite_left">
-        	<h6>Don't have web hosting yet?</h6>
-            <p>Let us help you get started and give you the following web hosting</p>
-            <br />
-            <a href="#" class="button_sw">Start website</a>        </div>
-        
-        <div class="newwebsite_center"></div>
-        
-        <div class="newwebsite_right">
-        	<ul>
-            	<li><img src="images/host-icon1.png" alt=""><br />Free Domain Register</li>
-                <li><img src="images/host-icon2.png" alt=""><br />Free Website Builder</li>
-                <li><img src="images/host-icon3.png" alt=""><br />Free Email Accounts</li>
-                <li><img src="images/host-icon4.png" alt=""><br />e-Commerce Shop Carts</li>
-                <li><img src="images/host-icon5.png" alt=""><br />Free Instant Setup!</li>
-                <li><img src="images/host-icon6.png" alt=""><br />Money Back Guarantee</li>
-                <li><img src="images/host-icon7.png" alt=""><br />Quality 24/7 Support</li>
-                <li><img src="images/host-icon8.png" alt=""><br />Control Panel</li>
-            </ul>
-        </div>
-    </div>
-    </div>
-    <!-- end New website --> 
-
-    <div class="columns four">
-    
-        <h2>hot offers</h2>
-        <div class="hot_offers">
-        
-        	<div class="cross_img_right">
-            	<h5>get Ultimate<br />
-				website hosting now!</h5>
-                <h1>Just $99 <i>/m</i></h1> 
-                <h6>.mobi <i>domain names now<br />
-				just $2.99 only</i></h6>
-			</div>
-        </div>
-    </div>
-    <!-- end Hot offers --> 
-	</div>
-</div>
-
-
-<div class="columns seventeen">
-
-	<div class="margin_top4"></div>
-
-	<div class="hosting_plans_area_main">
-    
-    <div class="site_goto_center">
-    
-    <div class="hosting_plans_area">
-    	<div class="hosting_plans_center_div">
-        <div class="plan_box">
-        	<div class="plan_box_price"><h3>$ 2.99<br /><i>/m</i></h3></div>
-            <div class="plan_box_title"><h3>Standard<br />hosting</h3></div>
-            <div class="plan_box_content">
+        <div class="content-fullwidth">
+        	
+            <div class="fullwidth-area">
+            	
+                <div class="our-products">
+                
                 <ul>
-                    <li>Unlimited Disk Storage</li>
-                    <li>Unlimited Domain Hosting</li>
-                    <li>Add-on Domains</li>
-                    <li>Spam Assasin Protection</li>
+                	<li>
+                    	<img src="images/products-img1.png" alt="" class="img_left2" />
+                        <h4>Domain Registar</h4>
+                        <p>If you are going to use a passage of there isn't anything embarrass hidden in the middle of text.</p>
+                    </li>
                     
-                </ul>
-           <h6><a href="standard-hosting.html" class="plans_button">sign up now!</a></h6>
-           	</div>
-        	<div class="plan_box_shadow"></div>
-        </div><!-- end a Plan --> 
-        
-        <div class="plan_box">
-        	<div class="plan_box_price"><h3>$ 4.99<br /><i>/m</i></h3></div>
-            <div class="plan_box_title"><h3>VPS<br />hosting</h3></div>
-            <div class="plan_box_content">
-                <ul>
-                   <li>CPU&nbsp;-&nbsp;0.56 GHZ</li>
-                   <li>RAM&nbsp;-&nbsp;384 MB</li>
-                   <li>Disk Space&nbsp;-&nbsp;10 GB</li>
-                   <li> Bandwidth&nbsp;-&nbsp;250 GB</li>
-                </ul>
-           <h6><a href="vps-hosting.html" class="plans_button">sign up now!</a></h6>
-           	</div>
-        	<div class="plan_box_shadow"></div>
-        </div><!-- end a Plan -->
-        
-        <div class="plan_box">
-        	<div class="plan_box_price"><h3>$ 36<br /><i>/m</i></h3></div>
-            <div class="plan_box_title"><h3>Dedicate<br />hosting</h3></div>
-            <div class="plan_box_content">
-                <ul>
-                    <li>Intel Dual Core G620</li>
-                    <li>2 GB DDR2 Memory</li>
-                    <li>250 GB Hard Drive</li>
-                    <li>1,000 GB Bandwidth</li>
-                </ul>
-           <h6><a href="dedicate-hosting.html" class="plans_button">sign up now!</a></h6>
-           	</div>
-        	<div class="plan_box_shadow"></div>
-        </div><!-- end a Plan -->
-        
-        <div class="plan_box last">
-        	<div class="plan_box_price"><h3>$ 99<br /><i>/m</i></h3></div>
-            <div class="plan_box_title"><h3>Mail<br />hosting</h3></div>
-            <div class="plan_box_content">
-                <ul>
-                    <li>Unlimited Disk Space</li>
-                    <li>10 Free Domains</li>
-                    <li>10 Website Host</li>
-                    <li>24/7 Support</li>
-                </ul>
-           <h6><a href="#" class="plans_button">sign up now!</a></h6>
-           	</div>
-        	<div class="plan_box_shadow"></div>
-        </div><!-- end a Plan -->
-    </div>
-    </div>
-    </div>
-     <div class="waves_graphic"></div>
-    </div>
-</div><!-- end all Plans -->
-
-
-
-<div class="columns seventeen">
-
-	<div class="site_goto_center">
-	
-    <div class="margin_top4"></div>
-	<div class="site_center_div">
-	<div class="columns eight">
-    	
-        <h3 class="with_line">why choose us / products</h3>
-    
-    	<ul class="whyus">
-        	<li><h3>1</h3>Domain Registar</li>
-            <li><h3>2</h3>Web site Hosting</li>
-            <li class="last"><h3>3</h3>Reseller Hosting</li>
-            <li><h3>4</h3>Virtual Servers</li>
-            <li><h3>5</h3>Dedicate Hosting</li>
-            <li class="last"><h3>6</h3>Cloud Servers</li>
-        </ul> 
-    </div>
-    <!-- end Why choose us -->
-    </div>
-    
-    <div class="columns eight last">
-		
-        <h3 class="with_line">what people say’s</h3>
-        
-        <div id="testimonials_area">
-        <div class = 'short-width-slider-3'>
-		
-			<div class = 'slider'>
-			
-				<div class = 'item' id = '1'>				  
-				  <img src="images/site-img7.jpg" alt="" class="img_border3" />
-				  <h6>Done Seanuer</h6>
-				  <div class="margin_top0"></div>
-				  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry Ipsum has been the indusstandard dummy  type and it to make a type.</p>
-			  </div>
-            <!-- end one slide -->
+                    <li class="last">
+                    	<img src="images/products-img2.png" alt="" class="img_left2" />
+                        <h4>Web site Hosting</h4>
+                        <p>If you are going to use a passage of there isn't anything embarrass hidden in the middle of text.</p>
+                    </li>
+                    
+                    <li>
+                    	<img src="images/products-img3.png" alt="" class="img_left2" />
+                        <h4>Reseller Hosting</h4>
+                        <p>If you are going to use a passage of there isn't anything embarrass hidden in the middle of text.</p>
+                    </li>
+                    
+                    <li class="last">
+                    	<img src="images/products-img4.png" alt="" class="img_left2" />
+                        <h4>cloud servers</h4>
+                        <p>If you are going to use a passage of there isn't anything embarrass hidden in the middle of text.</p>
+                    </li>
                 
-                <div class = 'item' id = '2'>                  
-                  <img src="images/site-img8.jpg" alt="" class="img_border3" />
-                  <h6>LUCIA PENELOPE</h6>
-                  <div class="margin_top0"></div>
-                  <p>Simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the indusstandard dummy  type and scrambled it to make a type.</p>
-              	</div>
-              	<!-- end one slide -->
+                </ul>
                 
-                <div class = 'item' id = '3'>                  
-                  <img src="images/site-img9.jpg" alt="" class="img_border3" />
-                  <h6>HENRY BRODIE</h6>
-                  <div class="margin_top0"></div>
-                  <p>Simply dummy text of the printing and typesetting indusstandard dummy  type and scrambled it to make a type.</p>
-              	</div>
-              	<!-- end one slide -->
-				</div>
-		</div>
-        	<div class = 'prev'></div>
-			<div class = 'next'></div>
-        </div>
-    </div>
-    <!-- end what people say’s -->
-    
-    
-    <div class="columns seventeen">
-    	<div class="margin_top1"></div>
-    	
-    	<div class="clients">
-        	<div class="clients_title">
-            	<h3>our clients<br />or partners</h3>
-            </div>
+                
             
-            <ul class="clients_logos_list">
-            	<li><img src="images/clients_logo1.jpg" alt="" /></li>
-                <li><img src="images/clients_logo2.jpg" alt="" /></li>
-                <li><img src="images/clients_logo3.jpg" alt="" /></li>
-                <li><img src="images/clients_logo4.jpg" alt="" /></li>
-                <li><img src="images/clients_logo5.jpg" alt="" /></li>
-                <li><img src="images/clients_logo6.jpg" alt="" /></li>
-            </ul>
+            </div><!-- end services section -->
+            
+         
+            
+           	<div class="left-border-box">Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.</div><!-- end section -->
+            
+          	 <div class="margin_top3"></div>
+            	<div class="clearfix"></div>
+            	<h3>This is sample - can be use like below</h3>
+            
+            	<ul class="sideimg-list">
+                    <li>
+                    <img src="images/progress.png" alt="" />
+                    <strong><a href="#">Smbarras us middle</a></strong>
+                    <p>Lorem Ipsum as their us default model text and ipsum will uncover for many web site in the years sometimes</p>
+                    </li>
+                    
+                    <li>
+                    <img src="images/route.png" alt="" />
+                    <strong><a href="#">Smbarras us middle</a></strong>
+                    <p>Lorem Ipsum as their us default model text and ipsum will uncover for many web site in the years sometimes</p>
+                    </li>
+                    
+                    <li>
+                    <img src="images/magnet.png" alt="" />
+                    <strong><a href="#">Smbarras us middle</a></strong>
+                    <p>Lorem Ipsum as their us default model text and ipsum will uncover for many web site in the years sometimes</p>
+                    </li>
+                    
+                    <li class="sideimg-list-last">
+                    <img src="images/football.png" alt="" />
+                    <strong><a href="#">Smbarras us middle</a></strong>
+                    <p>Lorem Ipsum as their us default model text and ipsum will uncover for many web site in the years sometimes</p>
+                    </li>
+                </ul>
+    
+    	<div class="clearfix"></div>
+    	<div class="divider_line"></div><!-- divider line -->            
+    
+    <h3>Tabbed services section</h3>
+              
+	<div id="tabs">
+	
+			<ul class="tabs">  
+				<li class="active"><a href="#tab1">Creative</a></li>
+				<li class=""><a href="#tab2">Business</a></li>
+				<li class=""><a href="#tab3">Technology</a></li>
+				
+			</ul><!-- /# end tab links -->
+			 
+ 
+		<div class="tab-container">
+            
+			<div id="tab1" class="tab-content">	
+				
+                
+                <h4>Creative</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscursus felis vel lacus cursus ullamcorper. Maecenas sed enim neque, quis rutrum arcu. Meceasa justo enim. Suspendisse suscipit malesuada magna, at sagittis augue varius ut. Donec vitae libero magna. Duis at ipsum ac mi tempor pulvinar. Vimus ut tincdunt assa. Quisque pulvinar neque eu lorem tincidunt imperdiet porta mauris molesie. Pelltesque blandit suscipit molestie. Phasellus porta lorc ipsum cursus conguet lobortis pellentesque ornare aliquet condimentum.</p>
+				
+				<p><img src="images/site-img10.jpg" alt="" class="img_border2" />Pelltesque blandit suscipit molestie. Phasellus porta lorem ac ipsum cursus congue. Ut lobortis pellentesque nare. Pellentesque tincidunt aliquet condimentum. Nunc rhoncus porta erat, in ornare dolor facilisis in. Aliquam aeque nulla, vitae convallis mauris. Duis tristique, lectus sit amet pharetra vehicula. Pellentesque tincidunt aliquet condimentum. Nunc rhoncus porta erat, in ornare dolor facilisis in. Aliquam a neque nulla, vitae convallis mauris. Duis tristique, lectus sit amet pharetra vehicula, velit lectus hendrerit lorem, eu rutrum velit mi vitae augue. Mauris congue, leo nec ullamcorper vestibulum, orci augue tristique mi, eget bibendum mauris turpis sed metus. Vestibulum quam risu volutpat quis aliquam eu, dictum id massa.</p>
+                
+                <p>It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</p>	
+			</div><!-- end tab single section --> 
+            
+            
+            <div id="tab2" class="tab-content">	
+				<h4>Business</h4>
+                <p><strong>Lorem ipsum dolor sit amet, consectetur adipiscursus felis</strong> vel lacus cursus ullamcorper. Maecenas sed enim neque, quis rutrum arcu. Meceasa justo enim. Suspendisse suscipit malesuada magna, at sagittis augue varius ut. Donec vitae libero magna. Duis at ipsum ac mi tempor pulvinar. Vimus ut tincdunt assa. Quisque pulvinar neque eu lorem tincidunt imperdiet porta mauris molesie. Pelltesque blandit suscipit molestie. Phasellus porta lorc ipsum cursus conguet lobortis pellentesque ornare aliquet condimentum.</p>
+				
+				<p>Pelltesque blandit suscipit molestie. Phasellus porta lorem ac ipsum cursus congue. Ut lobortis pellentesque nare. Pellentesque tincidunt aliquet condimentum. Nunc rhoncus porta erat, in ornare dolor facilisis in. Aliquam aeque nulla, vitae convallis mauris. Duis tristique, lectus sit amet pharetra vehicula. Pellentesque tincidunt aliquet condimentum. Nunc rhoncus porta erat, <strong>in ornare dolor facilisis</strong> in. Aliquam a neque nulla, vitae convallis mauris. Duis tristique, lectus sit amet pharetra vehicula, velit lectus hendrerit lorem, eu rutrum velit mi vitae augue. Mauris congue, leo nec ullamcorper vestibulum, orci augue tristique mi, eget bibendum mauris turpis sed metus. Vestibulum quam risu volutpat quis aliquam eu, dictum id massa.</p>
+                
+                <p>It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</p>	
+			</div><!-- end tab single section -->
+            
+            
+            <div id="tab3" class="tab-content">	
+				<h4>Technology</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscursus felis vel lacus cursus ullamcorper. Maecenas sed enim neque, quis rutrum arcu. Meceasa justo enim. Suspendisse suscipit malesuada magna, at sagittis augue varius ut. Donec vitae libero magna. Duis at ipsum ac mi tempor pulvinar. Vimus ut tincdunt assa. Quisque pulvinar neque eu lorem tincidunt imperdiet porta mauris molesie. Pelltesque blandit suscipit molestie. Phasellus porta lorc ipsum cursus conguet lobortis pellentesque ornare aliquet condimentum.</p>
+				
+				<p>Pelltesque blandit suscipit molestie. Phasellus porta lorem ac ipsum cursus congue. Ut lobortis pellentesque nare. Pellentesque tincidunt aliquet condimentum. Nunc rhoncus porta erat, in ornare dolor facilisis in. Aliquam aeque nulla, vitae convallis mauris. Duis tristique, lectus sit amet pharetra vehicula. Pellentesque tincidunt aliquet condimentum. Nunc rhoncus porta erat, in ornare dolor facilisis in. Aliquam a neque nulla, vitae convallis mauris. Duis tristique, lectus sit amet pharetra vehicula, velit lectus hendrerit lorem, eu rutrum velit mi vitae augue. Mauris congue, leo nec ullamcorper vestibulum, orci augue tristique mi, eget bibendum mauris turpis sed metus. Vestibulum quam risu volutpat quis aliquam eu, dictum id massa.</p>
+                
+                <p>It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</p>	
+			</div><!-- end tab single section -->
+			
+     
+ 			
+		</div>
+		
+		</div><!-- end tab -->
+        
         </div>
+
+    
     </div>
-    </div><!-- end our clients --> 
 </div>
-<!-- end Content --> 
+    
+    
+</div>    
+    
+    
+</div>
+
+
+
 
 
 <!-- Footer --> 
@@ -586,7 +386,7 @@ Our fast and flexible website creator is the easy way to build &amp; manage a si
     <div class="twitter-widgett">             
 						
 	<div class="twtr-widget-main">
-    
+  
             <!-- first box -->
             <script>
             new TWTR.Widget({
@@ -626,7 +426,7 @@ Our fast and flexible website creator is the easy way to build &amp; manage a si
             
             	<div class="contarea">
                 	<h4>signup for newsletter</h4>
-                 	<form method="get" action="index.html">
+                 	<form method="get" action="../fullwidth/index.html">
                     
 					<input class="enter_email_input" name="samplees" id="samplees" value="Subscribe free email newsletters" onFocus="if(this.value == 'Subscribe free email newsletters') {this.value = '';}" onBlur="if (this.value == '') {this.value = 'Subscribe free email newsletters';}" type="text">
 				

@@ -1,0 +1,192 @@
+a:hover, a:focus {
+	color: #ee0000;
+}
+.sideimg-list li a {
+	color: #ee0000;
+}
+.left-border-box {
+	border-left: 3px solid #ee0000;
+}
+#site_logo {
+	background: url(../../images/colors/red/logo.png) no-repeat left top;
+}
+#site_logo i {
+	color: #ee0000;
+}
+
+#sitetop_div_fullw {
+	background: url(../../images/colors/red/red-bg.jpg) repeat left top;
+}
+#sitetop_div {
+	background: url(../../images/colors/red/red-bg.jpg) repeat left top;
+}
+.down_arrow1 {
+	background: url(../../images/colors/red/down-arrow1.png) no-repeat center top;
+}
+.twitter_widgett_fullw {
+	background: url(../../images/colors/red/twitter_newsletter_bg.png) no-repeat center top;
+}
+
+h1.with_line,
+h2.with_line,
+h3.with_line { background: url(../../images/colors/red/down-arrow3.png) no-repeat left bottom; }
+	
+#access .menu ul li a:hover, 
+#access .menu ul li.active a, 
+#access .menu ul li a.selected {
+	color: #ee0000;
+	border-bottom: 3px solid #ee0000;
+}
+#access .menu ul li ul li a {
+	border-bottom: 1px solid #ee0000;
+}
+#access .menu ul li ul li a:hover,
+#access .menu ul li ul li.active a,
+#access .menu ul li ul li a.selected {
+	background-color: #ee0000;
+	border-bottom: 1px solid #ee0000;
+}
+.hot_offers h1 {
+	color: #ee0000;
+}
+.hosting_plans_area .plan_box {
+	border-top: 3px solid #ee0000;
+}
+#content .content-left .our-products li h6 {
+	color: #ee0000;
+}
+#content .our-support h5 {
+	color: #ee0000;
+}
+#content .content-fullwidth .our-products li h4 {
+	color: #ee0000;
+}
+.sidebars-navigation-list li a:hover {
+	color: #ee0000;
+}
+#site-searchform #searchsubmit{
+	background: #ee0000 url(../../images/site-search-icon.png) no-repeat center 9px;
+}
+.popular-posts-list li a:hover {
+	color: #ee0000;
+}
+.blog_post h3 a:hover {
+	color: #ee0000;
+}
+.hosting_page_plan .price {
+	color: #ee0000;
+}
+.hosting_page_plan .price i {
+	color: #ee0000;
+}
+.hosting_page_plan .ordernow h4 {
+	color: #ee0000;
+}
+.pricing-tables-helight .price {
+	background-color: #ee0000;
+}
+.pricing-tables-helight-two .price {
+	background-color: #ee0000;
+}
+.pricing-tables-helight .title {
+	background-color: #d90000;
+	border-top: 3px solid #ae0000;
+	border-bottom: 1px solid #f06363;
+}
+.pricing-tables-helight-two .title {
+	background-color: #d90000;
+	border-top: 3px solid #ae0000;
+	border-bottom: 1px solid #f06363;
+}
+
+.button.lightblue {
+	background-color: #ee0000;
+	color: #fff;
+}
+.highlight2.blue {
+	color: #ee0000;
+}
+.button.small.colorchan{
+	background-color: #ee0000;
+}
+
+.hosting_plans_area .plan_box_price {
+	background: #fff url(../../images/colors/red/plans-prices-bg.png) no-repeat left top;
+}
+.newwebsite_left {
+	background: url(../../images/colors/red/red-bg.jpg) repeat left top;
+}
+
+.newwebsite_left a.button_sw {
+	background: #ff2a2a url(../../images/colors/red/arrow-2.png) no-repeat right 12px;
+	box-shadow: 0px 0px 3px #940000;
+}
+.newwebsite_left a.button_sw:hover {
+	background: #ff2a2a url(../../images/colors/red/arrow-2.png) no-repeat right 12px;
+	box-shadow: 0px 0px 3px #940000;
+}
+
+.clients_title h3 {
+	background: url(../../images/colors/red/clients-bg.png) no-repeat left top;
+}
+
+.signupfor_newsletter {
+	background: url(../../images/colors/red/newsletter-bg.png) no-repeat left top;
+}
+
+.signupfor_newsletter input.enter_email_input {
+	background-color: #d90000;
+	border: 1px solid #ae0000;
+}
+.signupfor_newsletter .input_submit {
+	background-color: #ae0000;
+	border: 1px solid #990000;
+}
+.signupfor_newsletter .input_submit:hover {
+	color: #f06363;
+	cursor: pointer;
+}
+
+.top_links li a:hover {
+	color: #ffa7a7;
+}
+
+.hosting_plans_area a.plans_button:hover {
+	color: #ffa7a7;
+
+}
+
+
+.blog_post a.date {
+	background: url(../../images/colors/red/date-bg.png) no-repeat left top;
+}
+
+#content .content-right-sidebar h3 {
+	background: url(../../images/colors/red/down-arrow5.png) no-repeat left bottom;
+}
+#content .content-left-sidebar h3 {
+	background: url(../../images/colors/red/down-arrow5.png) no-repeat left bottom;
+}
+
+.tp-caption.main_text i {
+	color: #ee0000;
+}
+.tp-caption.button1{
+	background: url(../../images/colors/red/button-right-arrow1.png) no-repeat right top;
+}
+	
+.tp-caption a.button1-s{
+	background: #ee0000 url(../../images/slider/arrow-1.png) no-repeat right 18px;
+	border-left: 5px solid #dd0000;
+}
+
+html ul.tabs li.active, html ul.tabs li.active a,  html ul.tabs li.active a:hover  { 
+	border-top: 2px solid #ee0000;
+}
+
+html ul.tabs-two li.active, html ul.tabs-two li.active a,  html ul.tabs-two li.active a:hover  { 
+	border-left: 2px solid #ee0000;
+}
+
+
+

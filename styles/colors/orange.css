@@ -1,0 +1,191 @@
+a:hover, a:focus {
+	color: #f0ad0a;
+}
+.sideimg-list li a {
+	color: #f0ad0a;
+}
+.left-border-box {
+	border-left: 3px solid #f0ad0a;
+}
+#site_logo {
+	background: url(../../images/colors/orange/logo.png) no-repeat left top;
+}
+#site_logo i {
+	color: #f0ad0a;
+}
+
+#sitetop_div_fullw {
+	background: url(../../images/colors/orange/orange-bg.jpg) repeat left top;
+}
+#sitetop_div {
+	background: url(../../images/colors/orange/orange-bg.jpg) repeat left top;
+}
+.down_arrow1 {
+	background: url(../../images/colors/orange/down-arrow1.png) no-repeat center top;
+}
+.twitter_widgett_fullw {
+	background: url(../../images/colors/orange/twitter_newsletter_bg.png) no-repeat center top;
+}
+h1.with_line,
+h2.with_line,
+h3.with_line { background: url(../../images/colors/orange/down-arrow3.png) no-repeat left bottom; }
+	
+#access .menu ul li a:hover, 
+#access .menu ul li.active a, 
+#access .menu ul li a.selected {
+	color: #f0ad0a;
+	border-bottom: 3px solid #f0ad0a;
+}
+#access .menu ul li ul li a {
+	border-bottom: 1px solid #f0ad0a;
+}
+#access .menu ul li ul li a:hover,
+#access .menu ul li ul li.active a,
+#access .menu ul li ul li a.selected {
+	background-color: #f0ad0a;
+	border-bottom: 1px solid #f0ad0a;
+}
+.hot_offers h1 {
+	color: #f0ad0a;
+}
+.hosting_plans_area .plan_box {
+	border-top: 3px solid #f0ad0a;
+}
+#content .content-left .our-products li h6 {
+	color: #f0ad0a;
+}
+#content .our-support h5 {
+	color: #f0ad0a;
+}
+#content .content-fullwidth .our-products li h4 {
+	color: #f0ad0a;
+}
+.sidebars-navigation-list li a:hover {
+	color: #f0ad0a;
+}
+#site-searchform #searchsubmit{
+	background: #f0ad0a url(../../images/site-search-icon.png) no-repeat center 9px;
+}
+.popular-posts-list li a:hover {
+	color: #f0ad0a;
+}
+.blog_post h3 a:hover {
+	color: #f0ad0a;
+}
+.hosting_page_plan .price {
+	color: #f0ad0a;
+}
+.hosting_page_plan .price i {
+	color: #f0ad0a;
+}
+.hosting_page_plan .ordernow h4 {
+	color: #f0ad0a;
+}
+.pricing-tables-helight .price {
+	background-color: #f0ad0a;
+}
+.pricing-tables-helight-two .price {
+	background-color: #f0ad0a;
+}
+.pricing-tables-helight .title {
+	background-color: #e2a205;
+	border-top: 3px solid #bb8500;
+	border-bottom: 1px solid #f2b92e;
+}
+.pricing-tables-helight-two .title {
+	background-color: #e2a205;
+	border-top: 3px solid #bb8500;
+	border-bottom: 1px solid #f2b92e;
+}
+
+.button.lightblue {
+	background-color: #f0ad0a;
+	color: #fff;
+}
+.highlight2.blue {
+	color: #f0ad0a;
+}
+.button.small.colorchan{
+	background-color: #f0ad0a;
+}
+
+.hosting_plans_area .plan_box_price {
+	background: #fff url(../../images/colors/orange/plans-prices-bg.png) no-repeat left top;
+}
+.newwebsite_left {
+	background: url(../../images/colors/orange/orange-bg.jpg) repeat left top;
+}
+
+.newwebsite_left a.button_sw {
+	background: #f8b81d url(../../images/colors/orange/arrow-2.png) no-repeat right 12px;
+	box-shadow: 0px 0px 3px #bb8500;
+}
+.newwebsite_left a.button_sw:hover {
+	background: #f8b81d url(../../images/colors/orange/arrow-2.png) no-repeat right 12px;
+	box-shadow: 0px 0px 3px #bb8500;
+}
+
+.clients_title h3 {
+	background: url(../../images/colors/orange/clients-bg.png) no-repeat left top;
+}
+
+.signupfor_newsletter {
+	background: url(../../images/colors/orange/newsletter-bg.png) no-repeat left top;
+}
+
+.signupfor_newsletter input.enter_email_input {
+	background-color: #e2a205;
+	border: 1px solid #d19400;
+}
+.signupfor_newsletter .input_submit {
+	background-color: #d19400;
+	border: 1px solid #c28900;
+}
+.signupfor_newsletter .input_submit:hover {
+	color: #f2c75f;
+	cursor: pointer;
+}
+
+.top_links li a:hover {
+	color: #f2c75f;
+}
+
+.hosting_plans_area a.plans_button:hover {
+	color: #f2c75f;
+
+}
+
+
+.blog_post a.date {
+	background: url(../../images/colors/orange/date-bg.png) no-repeat left top;
+}
+
+#content .content-right-sidebar h3 {
+	background: url(../../images/colors/orange/down-arrow5.png) no-repeat left bottom;
+}
+#content .content-left-sidebar h3 {
+	background: url(../../images/colors/orange/down-arrow5.png) no-repeat left bottom;
+}
+
+.tp-caption.main_text i {
+	color: #f0ad0a;
+}
+.tp-caption.button1{
+	background: url(../../images/colors/orange/button-right-arrow1.png) no-repeat right top;
+}
+	
+.tp-caption a.button1-s{
+	background: #f0ad0a url(../../images/slider/arrow-1.png) no-repeat right 18px;
+	border-left: 5px solid #cd9100;
+}
+
+html ul.tabs li.active, html ul.tabs li.active a,  html ul.tabs li.active a:hover  { 
+	border-top: 2px solid #f0ad0a;
+}
+
+html ul.tabs-two li.active, html ul.tabs-two li.active a,  html ul.tabs-two li.active a:hover  { 
+	border-left: 2px solid #f0ad0a;
+}
+
+
+
