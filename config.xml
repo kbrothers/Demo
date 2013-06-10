@@ -6,10 +6,10 @@
         id        = "com.phonegap.hello-world"
         version   = "1.0.0">
 
-    <name>3G Solution</name>
+    <name>Aqua Marine India</name>
 
     <description>
-        Hello World sample application that responds to the deviceready event.
+        Aqua Marine India.
     </description>
 
     <author href="http://3g1.in" email="kunjal@3g1.in">
